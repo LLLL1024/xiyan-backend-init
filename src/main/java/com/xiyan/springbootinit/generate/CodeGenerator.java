@@ -16,7 +16,6 @@ import java.io.Writer;
  * 代码生成器
  *
  * @author <a href="https://github.com/LLLL1024">程序员兮颜</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
  */
 public class CodeGenerator {
 
@@ -29,7 +28,7 @@ public class CodeGenerator {
      */
     public static void main(String[] args) throws TemplateException, IOException {
         // 指定生成参数
-        String packageName = "com.yupi.springbootinit";
+        String packageName = "com.xiyan.springbootinit";
         String dataName = "用户评论";
         String dataKey = "userComment";
         String upperDataKey = "UserComment";
